@@ -1,0 +1,285 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300;400;700&family=Open+Sans:wght@300;400&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 20px 0;
+}
+.section__wraper {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.section__1 {
+  position: relative;
+  top: 0;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(images/bg4.jpg) no-repeat center center / cover;
+  height: 90vh;
+  background-attachment: fixed;
+  text-align: center;
+}
+.section__1 .section__header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.section__1 h1 {
+  font-family: "Righteous", cursive;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  word-spacing: 1rem;
+  margin-bottom: 3rem;
+}
+.section__1 h1 span {
+  border-bottom: 1px solid #fff;
+}
+.section__1 .section_1_para_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section__1 h2 {
+  font-family: "Lobster", "Arial", sans-serif;
+  text-transform: capitalize;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+.section__1 .section_1_heart {
+  color: #ff0000;
+  margin: 0 1rem;
+}
+.section_1_para {
+  margin: 15px 0;
+}
+.section__1 .section_1_para_3 p {
+  font-size: 2rem;
+}
+.section__1 .section_1_para_4 .date {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #faff00;
+}
+
+.section__1 .year {
+  font-size: 2rem;
+  color: #faff00;
+}
+
+.section__1 .section_1_para_5 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  /* border-radius: 5rem;
+  border: 0.5px solid; */
+}
+.section__1 .section_1_para_5 .item {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  padding: 7px;
+}
+.section__1 .section_1_para_5 .item span {
+  font-size: 2.5rem;
+  color: #7dedff;
+  font-weight: 700;
+}
+
+.section__2 {
+  background-color: #f3f3f9;
+  /* height: 95vh; */
+}
+.section__2 h1 {
+  font-family: "Righteous", cursive;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  word-spacing: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__2 .chronogramme {
+  display: flex;
+  justify-content: space-between;
+}
+.section__2 .chronogramme .item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #fcfcfc;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+}
+.section__2 .chronogramme .item .item-icon {
+  background-color: #f77;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+.section__2 .chronogramme .item h3 {
+  font-size: 2rem;
+  color: #f22;
+  margin: 20px 0;
+  /* text-transform: uppercase; */
+}
+.section__2 .chronogramme .item h3 span {
+  color: #f77;
+}
+.section__2 .chronogramme .item .time {
+  color: #000;
+  font-family: "Lobster";
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.section__2 .chronogramme .item .location__icon {
+  color: #f77;
+}
+.section__2 .chronogramme .item .location {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.section__2 .chronogramme .item .location a {
+  color: inherit;
+}
+.section__2 .chronogramme .item .location a:hover {
+  border-bottom: #f77 1px solid;
+  color: #f77;
+  transition: all 0.2s;
+}
+
+/*----------------------- -------*/
+/*FOOTER*/
+/*----------------------- -------*/
+footer {
+  text-align: center;
+  background-color: #333;
+  font-size: 80%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(51%2c 51%2c 51%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c486.029C89.855%2c466.71%2c167.114%2c423.779%2c254.94%2c396.694C383.353%2c357.092%2c577.072%2c411.243%2c635.268%2c290.117C692.971%2c170.017%2c520.254%2c57.751%2c478.595%2c-68.812C446.59%2c-166.044%2c479.033%2c-280.303%2c419.986%2c-363.92C358.863%2c-450.477%2c255.717%2c-494.9%2c154.828%2c-527.297C52.014%2c-560.312%2c-60.93%2c-589.51%2c-161.702%2c-550.707C-260.293%2c-512.744%2c-293.978%2c-393.143%2c-373.676%2c-323.792C-471.734%2c-238.465%2c-639.073%2c-220.769%2c-681.905%2c-98.043C-724.145%2c22.988%2c-641.17%2c152.32%2c-578.957%2c264.401C-520.339%2c370.006%2c-449.487%2c480.713%2c-336.686%2c523.894C-229.033%2c565.104%2c-112.696%2c510.259%2c0%2c486.029' fill='%23292929'%3e%3c/path%3e%3cpath d='M1440 911.605C1505.828 914.1700000000001 1563.969 874.742 1619.837 839.832 1676.345 804.5219999999999 1738.92 769.7429999999999 1765.095 708.466 1791.079 647.636 1782.357 576.011 1758.9569999999999 514.141 1737.9859999999999 458.693 1679.635 430.73699999999997 1642.559 384.481 1603.453 335.692 1594.151 256.515 1535.372 235.19299999999998 1476.809 213.95 1414.849 255.46300000000002 1358.173 281.323 1308.2359999999999 304.108 1269.181 340.198 1227.348 375.736 1177.519 418.068 1109.193 447.265 1089.463 509.6 1069.1390000000001 573.812 1090.019 646.0699999999999 1123.239 704.66 1155.075 760.81 1214.912 790.857 1268.949 826.1600000000001 1323.409 861.739 1374.997 909.072 1440 911.605' fill='%233d3d3d'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+footer .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-links a {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #f77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f77;
+  margin: 0 10px;
+}
+
+footer .social-links .facebook:hover {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+
+footer .social-links .twitter:hover {
+  color: #00aced;
+  border: 2px solid #00aced;
+}
+footer .social-links .instagram:hover {
+  color: #4c68d7;
+  border: 2px solid #4c68d7;
+}
+footer .social-links .linkedin:hover {
+  color: #0e76a8;
+  border: 2px solid #0e76a8;
+}
+footer .social-links .facebook,
+footer .social-links .twitter,
+footer .social-links .instagram,
+footer .social-links .linkedin {
+  transition: all 0.3s;
+}
+footer .copyright {
+  margin: 10px 0;
+}
+footer .contact {
+  color: #fff;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 665px) {
+  .section__1 h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .section__1 .section_1_para_5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section__2 .chronogramme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__2 .chronogramme .item {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .section__2 h1 {
+    font-family: "Righteous", cursive;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    word-spacing: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
